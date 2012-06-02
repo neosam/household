@@ -1,0 +1,76 @@
+html, body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.HouseholdView {
+  float: left;
+  overflow: auto;
+  margin: 20px;
+  padding: 0;
+  width: 300px;
+  border: 1px solid #2e3436;
+  color: #000;
+  background: #fff;
+}
+
+.HouseholdView h1 {
+  margin: 10px 0 10px 10px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.HouseholdView button {
+  margin: 0 0 10px 10px;
+  padding: 10px;
+  cursor: pointer;
+  width: 130px;
+  background: #d3d7cf;
+  font-size: 13px;
+  border: 1px solid #000;
+  border-radius: 13px;
+  color: #000;
+}
+
+.HouseholdView button:hover {
+  background: #eeeeec;
+}
+
+.PersonView {
+  overflow: auto;
+  margin: 0;
+  padding: 10px;
+  border-top: solid 1px #2e3436;
+  background: #d3d7cf;
+  color: #000;
+  font-size: 12px;
+}
+
+.PersonView input {
+  float: left;
+  display: block;
+  padding: 3px;
+  border: none;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+.PersonView label {
+  float: left;
+  clear: left;
+  display: block;
+  padding: 7px;
+  width: 60px;
+}
+
+.PersonView a {
+  float: right;
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.PersonView a:hover {
+  color: red;
+}
